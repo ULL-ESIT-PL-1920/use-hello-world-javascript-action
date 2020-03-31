@@ -1,3 +1,4 @@
+name: Using hello world
 on: [push]
 
 jobs:
@@ -9,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ULL-ESIT-PL-1920/hello-world-javascript-action
+        uses: ULL-ESIT-PL-1920/hello-world-javascript-action@v1
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'

@@ -87,6 +87,8 @@ LEARN MORE
 
 ### Exercise
 
+Add a manual trigger workflow with `workflow_dispatch` to your Egg repo so that you can execute any Egg example with `gh` or in the browser:
+
 ```
 gh workflow run egg.yml -f program=two.egg
 ```

@@ -15,7 +15,7 @@ You can now create workflows that are manually triggered with the new `workflow_
 
 You will then see a **Run workflow** button on the Actions tab, enabling you to easily trigger a run.
 
-![](images/run-workflow) 
+![](images/run-workflow.png) 
 
 ```
 ➜  use-hello-world-javascript-action git:(master) gh help workflow
